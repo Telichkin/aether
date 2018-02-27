@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "aether",
   "version": "0.0.1",
-  "description": "project-description",
+  "description": "[Proof of Concept] A simple event system for React applications",
   "scripts": {
     "clean": "rimraf dist/* && mkdir dist/css",
     "build:ts": "browserify ./src/main.tsx -p [ tsify ] -o ./dist/js/app.js",
